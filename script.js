@@ -1,5 +1,5 @@
 function triggerBtnClick() {
-    createSVGElements(540);
+    createSVGElements(450);
     setTimeout(swapElements, 1200);
     setTimeout(clearSvgElements, 3600);
     document.querySelector(".trigger-btn").style.display = "none";
